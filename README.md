@@ -34,3 +34,18 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+### Publishing this project (CFC Excellence)
+
+1. **Push to GitHub** (or GitLab / Bitbucket): create an empty repository on your host, then from this folder run:
+
+   ```bash
+   git remote add origin https://github.com/<your-username>/<your-repo>.git
+   git push -u origin master
+   ```
+
+2. **Import on Vercel**: open [vercel.com/new](https://vercel.com/new), import that repository, and confirm the preset is **Next.js**. Install command `npm install` and build command `npm run build` are also set in [`vercel.json`](./vercel.json).
+
+3. **Instagram feed (optional)**: in the Vercel project go to **Settings → Environment Variables** and add `INSTAGRAM_USER_ID` and `INSTAGRAM_ACCESS_TOKEN` (see [`.env.example`](./.env.example)) for **Production** (and **Preview** if you want the feed on preview URLs). Trigger a redeploy after saving.
+
+4. **CLI alternative** (no Git): run `npx vercel` for a preview or `npx vercel --prod` after logging in with the Vercel CLI.
