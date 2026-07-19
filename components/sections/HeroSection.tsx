@@ -34,12 +34,12 @@ export function HeroSection() {
             <p className="max-w-xl text-base text-white/90 md:text-lg">{siteConfig.hero.subtitle}</p>
             <div className="flex flex-wrap gap-3">
               <a
-                href={createWhatsAppUrl("Hi, I would like to book a free trial at CFC Excellence.")}
+                href={createWhatsAppUrl("Hi, I would like to book a free appointment at CFC Excellence.")}
                 target="_blank"
                 rel="noreferrer"
                 className="rounded-full bg-[color:var(--accent)] px-6 py-3 text-sm font-semibold uppercase tracking-[0.08em] text-white transition hover:scale-[1.02] hover:bg-[color:var(--accent-strong)]"
               >
-                Book Free Trial
+                Book Free Appointment
               </a>
               <a
                 href={`tel:${siteConfig.phoneDial}`}
@@ -89,7 +89,7 @@ export function HeroSection() {
           </a>
         </div>
       </div>
-      <div className="relative z-20 border-t border-[color:var(--premium)]/30 bg-[linear-gradient(90deg,rgba(19,47,82,0.92)_0%,rgba(26,63,109,0.9)_45%,rgba(19,47,82,0.92)_100%)] shadow-[0_-6px_20px_rgba(12,30,56,0.4)]">
+      <div className="relative z-20 overflow-hidden border-t border-[color:var(--premium)]/30 bg-[linear-gradient(90deg,rgba(19,47,82,0.92)_0%,rgba(26,63,109,0.9)_45%,rgba(19,47,82,0.92)_100%)] shadow-[0_-6px_20px_rgba(12,30,56,0.4)]">
         <div className="hero-ticker-track">
           {[0, 1].map((track) => (
             <div className="hero-ticker-content" key={track}>

@@ -27,7 +27,7 @@ export function CoachSection() {
             rel="noreferrer"
             className="inline-flex rounded-full bg-[#1FAF5A] px-6 py-3 text-sm font-bold text-white transition hover:bg-[#158e47]"
           >
-            Book Free Trial
+            Book Free Appointment
           </a>
         </div>
       </SectionReveal>

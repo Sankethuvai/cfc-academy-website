@@ -39,7 +39,7 @@ export function FooterSection() {
         <div>
           <h4 className="font-semibold">Get Started</h4>
           <p className="mt-3 text-sm text-white/75">
-            Book your free trial session and begin your performance journey.
+            Book your free appointment and begin your performance journey.
           </p>
         </div>
       </div>

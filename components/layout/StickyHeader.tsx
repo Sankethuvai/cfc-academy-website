@@ -8,7 +8,7 @@ export function StickyHeader() {
   const [open, setOpen] = useState(false);
   const [isCompactNav, setIsCompactNav] = useState(true);
   const ctaHref = createWhatsAppUrl(
-    `Hi ${siteConfig.academyName}, I want to book a free trial session.`
+    `Hi ${siteConfig.academyName}, I want to book a free appointment.`
   );
 
   useEffect(() => {

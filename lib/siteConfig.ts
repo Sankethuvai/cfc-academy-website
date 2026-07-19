@@ -17,7 +17,7 @@ export const siteConfig = {
     google: "https://share.google/bCPAIY2P7wsIKv5CP",
   },
   headerCta: {
-    label: "Book Free Trial",
+    label: "Book Free Appointment",
   },
   heroVideoPath: "/videos/original-ground.mp4",
   instagramUrl: "https://instagram.com/cfcexcellenceacademy",

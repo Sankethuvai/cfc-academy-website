@@ -7,7 +7,6 @@ import { CampusTourSection } from "@/components/sections/CampusTourSection";
 import { FooterSection } from "@/components/sections/FooterSection";
 import { HeroSection } from "@/components/sections/HeroSection";
 import { LocationContactSection } from "@/components/sections/LocationContactSection";
-import { PartnersSection } from "@/components/sections/PartnersSection";
 import { PhilosophySection } from "@/components/sections/PhilosophySection";
 import { SocialFeedSection } from "@/components/sections/SocialFeedSection";
 import { WhyChooseUsSection } from "@/components/sections/WhyChooseUsSection";
@@ -23,7 +22,6 @@ export default function Home() {
         <WhyChooseUsSection />
         <CampusTourSection />
         <SocialFeedSection />
-        <PartnersSection />
         <LocationContactSection />
       </main>
       <FooterSection />

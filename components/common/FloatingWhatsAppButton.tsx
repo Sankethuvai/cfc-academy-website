@@ -3,7 +3,7 @@ import { createWhatsAppUrl } from "@/lib/siteConfig";
 export function FloatingWhatsAppButton() {
   return (
     <a
-      href={createWhatsAppUrl("Hi, I want to know about CFC Excellence trial sessions.")}
+      href={createWhatsAppUrl("Hi, I want to know about CFC Excellence appointment.")}
       target="_blank"
       rel="noreferrer"
       aria-label="Chat with us on WhatsApp"

@@ -35,11 +35,13 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
+  overflow-x: hidden;
 }
 
 @keyframes heroTickerScroll {
@@ -53,8 +55,7 @@ body {
 
 .hero-ticker-track {
   display: flex;
-  width: max-content;
-  min-width: 100%;
+  width: 100%;
   overflow: hidden;
 }
 
